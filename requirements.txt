@@ -1,9 +1,10 @@
 streamlit
 joblib
 numpy 
-scikit-learen
+scikit-learn
 tensorflow
 keras
+
 
 
 
