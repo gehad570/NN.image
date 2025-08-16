@@ -2,5 +2,8 @@ streamlit
 joblib
 numpy 
 scikit-learen
+tensorflow
+keras
+
 
 
