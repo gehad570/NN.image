@@ -1,10 +1,11 @@
 import streamlit as st
 import numpy as np
+import joblib
 
 from PIL import Image
 
 # تحميل الموديل
-import joblib
+
 model = joblib.load("model.pkl")
 st.title("🖊 Handwritten Digit Recognition (MNIST)")
 
@@ -25,5 +26,6 @@ if uploaded_file is not None:
     # تنبؤ
     prediction = model.predict(img_array)
     pred_class = np.argmax(prediction, axis=1)[0]
+
 
     st.success(f"📌 الرقم المتوقع هو: {pred_class}")
