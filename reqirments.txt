@@ -1,0 +1,11 @@
+streamlit
+tensorflow
+Pil
+os
+numpy
+Pillow
+streamlit==0.64.0
+
+streamlit_drawable_canvas==0.4.0
+
+joblib
